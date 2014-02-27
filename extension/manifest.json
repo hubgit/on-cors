@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "ON CORS",
+    "version": "0.1",
+    "description": "Add Access-Control-Allow-Origin: * header to all XMLHttpRequest responses",
+    "permissions":[
+        "webRequest",
+        "webRequestBlocking",
+        "http://*/*",
+        "https://*/*"
+    ],
+    "background":{
+        "scripts":["background.js"]
+    }
+}
